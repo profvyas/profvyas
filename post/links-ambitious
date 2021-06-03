@@ -1,0 +1,85 @@
+
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-73XJCMQ45B');
+  </script>
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <title>Links For Highly Ambitious People · Shubham Vyas</title>
+</head>
+<body>
+<div id="menu">
+  <span class="title">Shubham Vyas</span>
+  <ul style="list-style-type:none;">
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/bookshelf">Bookshelf</a></li>
+    <li><a href="/quotes">Quotes</a></li>
+    <li><a href="https://vichaar.in"><i>vichaar.in</i></a></li>
+    <li><a href="/coi">Conversations On India</a></li>
+  </ul>
+  </div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<div class="post">
+<h1>Links For Highly Ambitious People</h1>
+<span class="byline">24-Aug-2020 <a href="/post/links-ambitious">permalink</a></span>
+
+<p>When I was in college I used to spend a lot of time scrolling social media. I wish it was put to better use. Also, I am constantly amazed how ignorant I was to all the amazing opportunities on offer for students. So I am putting together a list of links worth spending time on.</p>
+<br>
+<H3>GRANTS/FUNDING:</H3>
+<p>Pioneer grant - <a href = "https://pioneer.app/">https://pioneer.app</a></p>
+<p>Emergent Ventures - <a href = "https://www.mercatus.org/emergent-ventures">mercatus.org/emergent-ventures</a></p>
+<p>Thiel Fellowship - <a href = "https://thielfellowship.org/">https://thielfellowship.org</a></p>
+<p>Cards against humanity STEM scholarship for a woman - <a href = "https://www.scienceambassadorscholarship.org/">www.scienceambassadorscholarship.org</a></p>
+<p>Helium grant ($1K) - <a href = "https://www.heliumgrant.org/">www.heliumgrant.org</a></p>
+<p>Y Combinator startup incubator - <a href = "https://www.ycombinator.com/">www.ycombinator.com</a></p>
+<p>Einstein Fellowship - <a href = "https://www.einsteinforum.de/about/fellowship/?lang=en">www.einsteinforum.de</a></p>
+<p>1517fund - <a href = "https://www.1517fund.com/">www.1517fund.com</a></p>
+<br>
+<H3>SUMMER PROGRAMS/MISC:</H3>
+<p>Wolfram Summer School - <a href = "https://education.wolfram.com/summer/school/">https://education.wolfram.com/summer-school/</a></p>
+<p>SPARC - <a href = "https://sparc-camp.org/">sparc-camp.org</a></p>
+
+<p>Google Summer of Code - <a href = "https://summerofcode.withgoogle.com/">summerofcode.withgoogle.com</a></p>
+
+<p>Find hackathons on devpost - <a href = "https://devpost.com/">https://devpost.com</a></p>
+
+<p>The Recurse Center - <a href = "https://www.recurse.com/">www.recurse.com</a></p>
+
+<p>A-Z resources for students - <a href = "https://github.com/dipakkr/A-to-Z-Resources-for-Students">A-Z resources for students</a></p>
+
+<p>List of interesting labs - <a href = "https://logancollinsblog.com/.../interesting-lab-websites/">interesting-lab-websites</a></p>
+
+<br>
+
+<H3>OTHER FUN STUFF:</H3>
+
+<p>Slate Star Codex - <a href = "https://slatestarcodex.com/tag/links-2/">Curated links</a></p>
+<p>Gwern - <a href = "https://www.gwern.net/tags/newsletter">Curated links</a></p>
+<p>Alexey Guzey - <a href = "https://guzey.com/links/">guzey.com/links</a></p>
+<p>Github Awesome startup resources - <a href = "https://github.com/ahmadnassri/awesome-startup-resources">Github repo</a></p>
+<p>Github meta Awesome - <a href = "https://github.com/sindresorhus/awesome">Meta repo</a></p>
+<br>
+<H3>GENERAL ADVICE:</H3>
+<p>Hell yeah or no - <a href = "https://sive.rs/hellyeah">article</a></p>
+<p>How to do what you love - <a href = "http://www.paulgraham.com/love.html">article</a></p>
+<p>How to maximize serendipity - <a href = "https://www.perell.com/blog/serendipity">article</a></p>
+
+<p>Patrick Collison's advice for young ones - <a href = "https://patrickcollison.com/advice">article</a></p>
+<br><br>
+<i><p>“the standard pace is for chumps”</p>
+<p>Got any other links that should be on this list? Kindly <a href="mailto:sv.vichaar@gmail.com">email</a> me</p></i>
+
+</div>
+
+</div>
+</body>
+</html>

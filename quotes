@@ -1,0 +1,82 @@
+
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-73XJCMQ45B');
+</script>
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <title>Quotes · Shubham Vyas</title>
+</head>
+<body>
+<div id="menu">
+  <span class="title">Shubham Vyas</span>
+  <ul style="list-style-type:none;">
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/bookshelf">Bookshelf</a></li>
+    <li><a href="/quotes">Quotes</a></li>
+    <li><a href="https://vichaar.in"><i>vichaar.in</i></a></li>
+    <li><a href="/coi">Conversations On India</a></li>
+  </ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+
+<h1>Quotes</h1>
+
+<style>
+b {
+	font-weight: normal;
+}
+b a {
+	color: #3A6E35;
+}
+i a {
+	color: #4982C4;
+}
+a:visited {
+	color: blue;
+}
+</style>
+
+<p>I like to describe myself as a <i>quote-fiend</i>. Here is a collection of quotes I like coming back to from time to time. 
+</p>
+
+<p></p>
+
+
+<ul>
+<li>"There are more things that can frigten us than there are those that can crush us. We suffer more in imagination than in reality" - Seneca</li>
+<li>"If my detractors knew me better they would hate me even more" - Epictetus</li>
+<li>"Be disciplined and orderly in your life so that you may be violent and original in your work" - Gustave Flaubert</li>
+<li>"Everyone has two lives and the second starts when we realize we have only one" - Confucius</li>
+<li>"Vanity is the greatest seducer of reason" - Marcus Aurelius</li>
+<li>"There are two kinds of people, those who focus on winning and those who focus on winning arguments and they are never the same" - NN Taleb</li>
+<li>"Courage is the first of human qualities because it is the quality that guarantees the others" - Aristotle</li>
+<li>"Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt" - Sun Tzu</li>
+<li>"Principles are higher than techniques. Principles produce techniques in an instant" - Ido Portal</li>
+<li>"Those who cannot hear the music, think the dancers mad" - Nietzsche</li>
+<li>"Man can do what he wills but he cannot will what he wills" - Schopenhauer</li>
+
+
+
+
+
+</ul>
+
+<p>Got recommendations? <a href="mailto:sv.vichaar@gmail.com">Drop me a note</a>!</p>
+
+</div>
+
+</div>
+
+
+</body>
+</html>

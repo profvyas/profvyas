@@ -1,0 +1,44 @@
+
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-73XJCMQ45B');
+</script>
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <title>Conversations On India · Shubham Vyas</title>
+</head>
+<body>
+<div id="menu">
+  <span class="title">Shubham Vyas</span>
+  <ul style="list-style-type:none;">
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/bookshelf">Bookshelf</a></li>
+    <li><a href="/quotes">Quotes</a></li>
+    <li><a href="https://vichaar.in"><i>vichaar.in</i></a></li>
+    <li><a href="/coi">Conversations On India</a></li>
+  </ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+
+<img src="/static/coi.jpg" height="250">
+
+<p>
+Conversations on India is a weekly podcast. It focuses on ethical issues in India today. We do it live every Friday at 6 PM IST <a href="https://www.instagram.com/conversations_on_india/">here</a>.
+</p>
+
+<p>If you'd like to appear in the next episode, write to me at <a href="mailto:sv.vichaar@gmail.com">this address</a>.</p>
+
+</div>
+
+
+</body>
+</html>

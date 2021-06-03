@@ -1,0 +1,70 @@
+
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-73XJCMQ45B');
+  </script>
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <title>Amara's Law · Shubham Vyas</title>
+</head>
+<body>
+<div id="menu">
+  <span class="title">Shubham Vyas</span>
+  <ul style="list-style-type:none;">
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/bookshelf">Bookshelf</a></li>
+    <li><a href="/quotes">Quotes</a></li>
+    <li><a href="https://vichaar.in"><i>vichaar.in</i></a></li>
+    <li><a href="/coi">Conversations On India</a></li>
+  </ul>
+  </div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<div class="post">
+<h1>Amara's Law</h1>
+<span class="byline">19-Jul-2020 <a href="/post/amaras-law">permalink</a></span>
+<p>Predicting the future is a foolhardy exercise. The world is complex system. Anyone who has studied complex systems knows that the cause-and-effect pattern seeking human brain is incapable of processing nearly enough variables to make predictions of any value. Having said that, there is one law for predictions and trend-spotting that has stood the test of time. Albeit in the narrow field of application of a new technology. That is the Amara's Law. It states that we tend to over-estimate the impact that a new technology is going to have on our lives in the short run, but tend to under-estimate it in the long run. </p>
+
+
+<p>This has interesting implications for the technologies that are being talked about now (looking at you GPT-3). But first, lets go back in time to see how it applies to technologies that were invented in the past. </p>
+
+
+
+<p>First, the internet. We are all familiar with the dot-com bubble of 2001. It came on the heels of seemingly boundless growth of silicon valley start-ups, flush with investor money, promising to solve all of humanities problems. Only to be followed by a crash destroying $5 Trillion in market capitalization of stocks in the process. The eager venture capitalists, the irrationally exuberant founders and the opportunist wall-street traders were all victims of Amara's law. </p>
+
+
+
+<p><img src="/static/image-amaras-law.png" height="200"></p>
+
+<p>The technology had not matured yet, the market had a limited number of people who could access the internet, yadda yadda. The inflated expectations did them in. The Amara's law doesn't just trap people on the peak of inflated expectations but also on the trough of disillusionment. Around the same time the Nobel prize-winning economist Paul Krugman wrote that “by 2005 or so, it will become clear that the internet’s impact on the economy has been no greater than the fax machine’s”. He went on: “As the rate of technological change in computing slows, the number of jobs for IT specialists will decelerate, then actually turn down; ten years from now, the phrase information economy will sound silly.” </p>
+
+
+
+<p>The internet is probably asking, "Who sounds silly now, Mr Krugman?" </p>
+
+
+
+<p>The same pattern can be seen if we go further back to the invention of steam locomotive in 1802. Electricity, automobiles, personal computers... same thing. The law can be explained by some combination of the Dunning-Kruger effect and Rene Girard's Mimetic Theory. But I wont get into that here.  </p>
+
+
+
+<p>The Amara's law is currently unfolding for artificial intelligence and at a much earlier stage for block-chain technology. Over the last decade both have become buzz words on start-up pitch decks. AI has started predicting travel times accurately only recently. This suggests we are slowly climbing the plateau of productivity for AI. For block-chain I feel we are squarely in the middle of the trough of disillusionment, after the 1 BTC = $20K peak for bitcoin in late 2017.   </p>
+</div>
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

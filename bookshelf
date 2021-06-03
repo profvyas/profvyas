@@ -1,0 +1,96 @@
+
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-73XJCMQ45B');
+</script>
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <title>Bookshelf · Shubham Vyas</title>
+</head>
+<body>
+<div id="menu">
+  <span class="title">Shubham Vyas</span>
+  <ul style="list-style-type:none;">
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/bookshelf">Bookshelf</a></li>
+    <li><a href="/quotes">Quotes</a></li>
+    <li><a href="https://vichaar.in"><i>vichaar.in</i></a></li>
+    <li><a href="/coi">Conversations On India</a></li>
+  </ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+
+<h1>Bookshelf</h1>
+
+<style>
+b {
+	font-weight: normal;
+}
+b a {
+	color: #3A6E35;
+}
+i a {
+	color: #4982C4;
+}
+a:visited {
+	color: blue;
+}
+</style>
+
+<p>My interests for reading are history and philosophy with a heavy dose of <i>startup-y</i> books. 
+</p>
+
+<p></p>
+
+<p>In no particular order. </p>
+
+
+<ul>
+<li><a href="https://www.amazon.in/Skin-Game-Nassim-Nicholas-Taleb/dp/0241300657">Skin in the Game</a> by Nassim Nicholas Taleb</li>
+<li><a href="https://www.amazon.in/Zero-One-Notes-Startups-Future/dp/0804139296">Zero To One</a> by Peter Theil</li>
+<li><a href="https://en.wikipedia.org/wiki/Influence:_Science_and_Practice">Influence</a> by Robert Cialdini</li>
+<li><a href="https://www.amazon.in/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA">The Hard Thing About Hard Things</a> by Ben Horowitz</li>
+<li><a href="https://www.amazon.in/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202">Flow</a> by Mihaly Csikszentmihalyi</li>
+<li><a href="https://www.amazon.in/Thinking-Fast-International-Daniel-Kahneman/dp/0374533555">Thinking, Fast and Slow</a> by Daniel Kahneman</li>
+<li><a href="https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari/dp/0099590085">Sapiens</a> by Yuval Noah Harari</li>
+<li><a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834">Atomic Habits</a> by James Clear</li>
+<li><a href="https://www.amazon.in/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219">Fooled By Randomness</a> by Nassim Nicholas Taleb</li>
+<li><a href="https://www.amazon.in/Short-History-Modern-Philosophy-Wittgenstein/dp/0415267633">A Short History of Modern Philosophy</a> by Roger Scruton</li>
+<li><a href="https://www.amazon.in/Brave-New-World-Aldous-Huxley/dp/0099477467">Brave New World</a> by Aldous Huxley</li>
+<li><a href="https://www.amazon.in/Human-All-Too-Friedrich-Nietzsche/dp/0140446176">Human, All Too Human</a> by Friedrich Nietzsche</li>
+<li><a href="https://www.amazon.in/Anna-Karenina-Leo-Tolstoy/dp/8175993421">Anna Karenina</a> by Leo Tolstoy</li>
+<li><a href="https://www.amazon.in/Counsels-Maxims-Arthur-Schopenhauer/dp/160206346X">Counsels and Maxims</a> by Arthur Schopenhauer</li>
+<li><a href="https://www.amazon.in/History-Western-Philosophy-Bertrand-Russell/dp/1138694754">A History of Western Philosophy</a> by Bertrand Russell</li>
+<li><a href="https://www.amazon.in/Black-Swan-Impact-Highly-Improbable/dp/0141034599">The Black Swan</a> by Nassim Nicholas Taleb</li>
+<li><a href="https://www.amazon.in/War-Peace-Vintage-Classics-Tolstoy/dp/1400079985">War and Peace</a> by Leo Tolstoy</li>
+<li><a href="https://www.amazon.in/Never-Split-Difference-Negotiating-Depended/dp/1847941494">Never Split the Difference</a> by Chris Voss</li>
+<li><a href="https://www.amazon.in/Prince-Niccol%C3%B2-Machiavelli/dp/8175993073>The Prince</a> by Niccolo Machiavelli</li>
+<li><a href="https://www.amazon.in/Mans-Search-Meaning-Viktor-Frankl/dp/1846041244">Man's Search for Meaning</a> by Victor Frankl</li>
+<li><a href="https://www.amazon.in/History-Decline-Empire-Penguin-Classics/dp/0140437649">The History of the Decline and Fall of the Roman Empire</a> by Edward Gibbon</li>
+<li><a href="https://www.amazon.in/Churchill-Power-Words-Winston-S/dp/0857501461">Churchill: The Power of Words</a> by Winston Churchill</li>
+
+<li><a href="https://www.amazon.in/Wealth-Nations-Adam-Smith/dp/0553585975">Wealth of Nations</a> by Adam Smith</li>
+
+<li><a href="https://www.amazon.in/Meditations-Penguin-Classics-Marcus-Aurelius/dp/0140449337">Meditations</a> by Marcus Aurelius</li>
+
+
+</ul>
+
+<p>Got recommendations? <a href="mailto:sv.vichaar@gmail.com">Drop me a note</a>!</p>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
