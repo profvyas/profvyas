@@ -108,3 +108,71 @@ img {
     text-align: center; /* Center text on mobile */
   }
 }
+
+/* Styles for blog posts */
+.post {
+  margin-bottom: 40px;
+}
+
+.post h1 {
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.post .byline {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.post p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.post ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+.post li {
+  margin-bottom: 8px;
+}
+
+.post blockquote {
+  border-left: 4px solid #e0e0e0;
+  padding-left: 16px;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* Styles for the book list */
+.book-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 24px;
+}
+
+.book-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.book-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.book-list a:hover {
+  text-decoration: underline;
+}
