@@ -1,122 +1,182 @@
-/* Common styles */
+/* CSS Custom Properties */
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f2937;
+  --text-color-light: #6b7280;
+  --background-color: #f9fafb;
+  --surface-color: #ffffff;
+  --border-color: #e5e7eb;
+  --hover-color: #1d4ed8;
+  --transition-speed: 0.2s;
+}
+
+/* Base styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
 .container {
   max-width: 800px;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
+/* Header styles */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 20px; /* Adjusted padding */
-  background-color: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .header-left {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .profile-image img {
-  width: 50px; /* Increased size */
+  width: 50px;
   height: 50px;
   border-radius: 50%;
+  object-fit: cover;
+  transition: transform var(--transition-speed);
 }
 
-.name-title {
-  margin-left: 15px;
+.profile-image img:hover {
+  transform: scale(1.05);
 }
 
-.name-title .title {
-  font-size: 28px;
-  font-weight: 600;
-  color: #444;
-}
-
+/* Navigation styles */
 #menu ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
-}
-
-#menu ul li {
-  margin: 0 12px;
+  gap: 20px;
 }
 
 #menu ul li a {
   text-decoration: none;
-  color: #555;
-  font-weight: normal;
+  color: var(--text-color);
+  font-weight: 500;
   font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all var(--transition-speed);
 }
 
 #menu ul li a:hover {
-  color: #000;
+  color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
+/* Content styles */
 #content {
-  padding: 20px;
-  background-color: #ffffff;
-  text-align: left;
+  padding: 40px 0;
+  background-color: var(--surface-color);
 }
 
 .section {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
-h1, h2, h3 {
-  color: #444;
-  font-weight: 600;
+.section p {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
+/* Link styles */
 a {
-  color: #0066cc;
+  color: var(--primary-color);
   text-decoration: none;
+  transition: color var(--transition-speed);
 }
 
 a:hover {
+  color: var(--hover-color);
   text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
-    align-items: center; /* Center items on mobile */
-    text-align: center;
+    align-items: center;
+    padding: 15px 0;
   }
+  
   .header-left {
     flex-direction: column;
+    text-align: center;
     margin-bottom: 15px;
   }
-  .name-title {
-    margin-left: 0;
-    margin-top: 10px;
-  }
+  
   #menu ul {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
-  #menu ul li {
-    margin: 8px 0;
+  
+  #menu ul li a {
+    display: block;
+    padding: 10px 20px;
   }
-  #content {
-    text-align: left;
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .section p {
+    font-size: 16px;
+  }
+}
+
+/* Focus styles for accessibility */
+a:focus,
+button:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #f3f4f6;
+    --text-color-light: #9ca3af;
+    --background-color: #111827;
+    --surface-color: #1f2937;
+    --border-color: #374151;
+  }
+}
+
+/* Print styles */
+@media print {
+  .header {
+    border-bottom: none;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
   }
 }
 
@@ -187,9 +247,6 @@ img {
 .book-list a:hover {
   text-decoration: underline;
 }
-
-
-
 
 /* Styles for the Conversations On India image */
 .coi-image {
