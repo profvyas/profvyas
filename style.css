@@ -8,6 +8,8 @@
   --border-color: #e5e7eb;
   --hover-color: #1d4ed8;
   --transition-speed: 0.2s;
+  --content-width: 800px;
+  --line-height: 1.7;
 }
 
 /* Base styles */
@@ -182,49 +184,113 @@ button:focus {
 
 /* Styles for blog posts */
 .post {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.post:last-child {
+  border-bottom: none;
 }
 
 .post h1 {
-  font-size: 28px;
-  color: #444;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.post h2 {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin: 2rem 0 1rem;
+  color: var(--text-color);
+}
+
+.post h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1.5rem 0 1rem;
+  color: var(--text-color);
 }
 
 .post .byline {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 20px;
+  display: block;
+  color: var(--text-color-light);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
 }
 
 .post p {
-  line-height: 1.6;
-  margin-bottom: 16px;
+  font-size: 1.125rem;
+  line-height: var(--line-height);
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
 }
 
-.post ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  margin-bottom: 16px;
+.post ul, .post ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
 }
 
 .post li {
-  margin-bottom: 8px;
+  margin-bottom: 0.75rem;
+  line-height: var(--line-height);
 }
 
 .post blockquote {
-  border-left: 4px solid #e0e0e0;
-  padding-left: 16px;
-  margin-left: 0;
-  color: #666;
+  border-left: 4px solid var(--primary-color);
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background-color: var(--background-color);
   font-style: italic;
-  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.post blockquote p {
+  margin-bottom: 0;
 }
 
 .post img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 16px;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.post a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all var(--transition-speed);
+}
+
+.post a:hover {
+  color: var(--hover-color);
+  border-bottom-color: var(--hover-color);
+}
+
+/* Responsive Blog Styles */
+@media (max-width: 600px) {
+  .post h1 {
+    font-size: 2rem;
+  }
+  
+  .post h2 {
+    font-size: 1.5rem;
+  }
+  
+  .post h3 {
+    font-size: 1.25rem;
+  }
+  
+  .post p {
+    font-size: 1rem;
+  }
+  
+  .post blockquote {
+    padding: 1rem;
+  }
 }
 
 /* Styles for the book list */
