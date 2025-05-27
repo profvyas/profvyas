@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://profvyas.com/sitemap.xml
+
+# Disallow crawling of any private or system files
+Disallow: /.git/
+Disallow: /.DS_Store
+Disallow: /static/.DS_Store 

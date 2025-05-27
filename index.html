@@ -12,16 +12,85 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Shubham Vyas - Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
-  <meta name="keywords" content="Shubham Vyas, FilFlo, SaaS, data science, growth operations, IIT Guwahati">
-  <meta property="og:title" content="Shubham Vyas">
-  <meta property="og:description" content="Building FilFlo, a SaaS platform for insurgent brands in India">
-  <meta property="og:image" content="/static/1708088608846.jpeg">
-  <title>Shubham Vyas</title>
+  <meta name="keywords" content="Shubham Vyas, FilFlo, SaaS, data science, growth operations, IIT Guwahati, Indian entrepreneur, tech startup">
+  <meta name="author" content="Shubham Vyas">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://profvyas.com" />
+  
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/static/icon-192x192.png">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="/static/1708088608846.jpeg" as="image">
+  <link rel="preload" href="style.css" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" as="style">
+  
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://profvyas.com">
+  <meta property="og:title" content="Shubham Vyas - Entrepreneur & Tech Innovator">
+  <meta property="og:description" content="Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
+  <meta property="og:image" content="https://profvyas.com/static/1708088608846.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://profvyas.com">
+  <meta property="twitter:title" content="Shubham Vyas - Entrepreneur & Tech Innovator">
+  <meta property="twitter:description" content="Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
+  <meta property="twitter:image" content="https://profvyas.com/static/1708088608846.jpeg">
+
+  <title>Shubham Vyas - Entrepreneur & Tech Innovator</title>
+  
   <!-- Include Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shubham Vyas",
+    "url": "https://profvyas.com",
+    "image": "https://profvyas.com/static/1708088608846.jpeg",
+    "sameAs": [
+      "https://www.linkedin.com/in/shubham-vyas",
+      "https://twitter.com/_profvyas"
+    ],
+    "jobTitle": "Entrepreneur",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "FilFlo"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "IIT Guwahati"
+    }
+  }
+  </script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('ServiceWorker registration successful');
+          })
+          .catch(err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
 </head>
 <body>
   <div class="container">
@@ -29,7 +98,11 @@
     <div class="header">
       <div class="header-left">
         <div class="profile-image">
-          <img src="/static/1708088608846.jpeg" alt="Shubham Vyas Profile Picture">
+          <img src="/static/1708088608846.jpeg" 
+               alt="Shubham Vyas - Entrepreneur and IIT Guwahati alumnus building FilFlo" 
+               loading="lazy"
+               width="150"
+               height="150">
         </div>
       </div>
       <nav id="menu" aria-label="Main navigation">
@@ -44,12 +117,16 @@
     </div>
     <main id="content">
       <div class="section">
-        <p>
-          I'm building <a href="https://filflo.in">FilFlo</a>, a SaaS platform empowering insurgent brands in India. An IIT Guwahati graduate, I've previously worked on growth and operations at <a href="https://anveshan.farm">Anveshan</a>, <a href="https://ptal.in">P-TAL</a>, and <a href="https://sleepyowl.co">Sleepy Owl</a>. My background in data science at Shopify and Oracle has shaped my approach to building scalable solutions.
-        </p>
+        <h1 class="visually-hidden">Shubham Vyas - Entrepreneur & Tech Innovator</h1>
+        <div class="bio-content">
+          <p>
+            I'm building <a href="https://filflo.in" aria-label="Visit FilFlo website">FilFlo</a>, a SaaS platform empowering insurgent brands in India. An IIT Guwahati graduate, I've previously worked on growth and operations at <a href="https://anveshan.farm" aria-label="Visit Anveshan website">Anveshan</a>, <a href="https://ptal.in" aria-label="Visit P-TAL website">P-TAL</a>, and <a href="https://sleepyowl.co" aria-label="Visit Sleepy Owl website">Sleepy Owl</a>. My background in data science at Shopify and Oracle has shaped my approach to building scalable solutions.
+          </p>
+        </div>
       </div>
       <div class="section">
-        <p>Let's connect on <a href="https://www.linkedin.com/in/shubham-vyas">LinkedIn</a>, <a href="https://twitter.com/_profvyas">Twitter</a>, or via <a href="mailto:shubham@fillflow.us">email</a>.</p>
+        <h2 class="visually-hidden">Connect with Shubham Vyas</h2>
+        <p>Let's connect on <a href="https://www.linkedin.com/in/shubham-vyas" aria-label="Connect on LinkedIn">LinkedIn</a>, <a href="https://twitter.com/_profvyas" aria-label="Follow on Twitter">Twitter</a>, or via <a href="mailto:shubham@fillflow.us" aria-label="Send an email">email</a>.</p>
       </div>
     </main>
   </div>
