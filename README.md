@@ -34,7 +34,7 @@ I build products that solve real-world supply chain and logistics challenges. Cu
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=profvyas&theme=default&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=profvyas&theme=default&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ## Let's Connect
