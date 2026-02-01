@@ -1,5 +1,7 @@
 # Hey, I'm Shubham Vyas
 
+![Profile Views](https://komarev.com/ghpvc/?username=profvyas&color=blue&style=flat-square&label=Profile+Views)
+
 **Founder & Entrepreneur** | Building [FilFlo](https://github.com/profvyas?tab=repositories&q=filflo) | Delhi, India
 
 I build products that solve real-world supply chain and logistics challenges. Currently focused on bringing observability and automation to e-commerce operations.
