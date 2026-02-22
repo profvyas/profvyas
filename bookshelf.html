@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
@@ -23,20 +23,24 @@
   <div class="container">
     <!-- Header section with profile image and menu -->
     <div class="header">
-      <div class="profile-image">
-        <img src="/static/1708088608846.jpeg" alt="Profile Picture">
+      <div class="header-left">
+        <div class="profile-image">
+          <a href="/" aria-label="Home">
+            <img src="/static/1708088608846.jpeg" alt="Shubham Vyas">
+          </a>
+        </div>
       </div>
-      <div id="menu">
+      <nav id="menu" aria-label="Main navigation">
         <ul>
           <li><a href="/blog">Blog</a></li>
+          <li><a href="/bookshelf">Bookshelf</a></li>
           <li><a href="/quotes">Quotes</a></li>
           <li><a href="/coi">Conversations On India</a></li>
           <li><a href="https://filflo.in"><i>FilFlo</i></a></li>
-          <li><a href="/">Home</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <div id="content">
+    <main id="content">
       <h1>Bookshelf</h1>
       <p>I have always enjoyed looking at other people's bookshelves. Here is mine.</p>
       <p>My reading interests are history, philosophy, and a heavy dose of <i>start-uppy</i> books. In no particular order:</p>
@@ -67,7 +71,7 @@
         <li><a href="https://www.amazon.in/Meditations-Penguin-Classics-Marcus-Aurelius/dp/0140449337">Meditations</a> by Marcus Aurelius</li>
       </ul>
       <p>Got recommendations? <a href="mailto:shubham@muul.us">Drop me a note</a>!</p>
-    </div>
+    </main>
   </div>
 </body>
 </html>
