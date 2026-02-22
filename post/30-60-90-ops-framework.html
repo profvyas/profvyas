@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-73XJCMQ45B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-73XJCMQ45B');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 30-60-90 Operations Playbook for Early-Stage D2C Brands · Shubham Vyas</title>
+  <!-- Include Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <div class="profile-image">
+          <a href="/" aria-label="Home">
+            <img src="/static/1708088608846.jpeg" alt="Shubham Vyas">
+          </a>
+        </div>
+      </div>
+      <nav id="menu" aria-label="Main navigation">
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/bookshelf">Bookshelf</a></li>
+          <li><a href="/quotes">Quotes</a></li>
+          <li><a href="/coi">Conversations On India</a></li>
+          <li><a href="https://filflo.in"><i>FilFlo</i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <main id="content">
+      <article class="post">
+        <h1>The 30-60-90 Operations Playbook for Early-Stage D2C Brands</h1>
+        <span class="byline">20-Jan-2026 <a href="/post/30-60-90-ops-framework">permalink</a></span>
+
+        <p>There's a pattern I've seen across every D2C brand I've worked with — at Anveshan, P-TAL, Sleepy Owl, and now building FilFlo for dozens of brands. Between ₹1 crore and ₹10 crore ARR, operations becomes the binding constraint. Not marketing, not product, not fundraising. Ops.</p>
+
+        <p>At ₹1 crore, you can run things on WhatsApp messages, shared spreadsheets, and the founder's memory. The whole operation fits in your head. By ₹5 crore, that same approach is costing you 15–20% of your revenue in errors, manual reconciliation, and stockouts you didn't see coming. By ₹10 crore, it breaks outright.</p>
+
+        <p>The problem is that ops debt compounds faster than tech debt. With tech debt, you get slower deployments and frustrated engineers. With ops debt, you get missed orders, marketplace penalties, working capital locked in wrong inventory, and customers who never come back. The compounding is immediate and financially visible.</p>
+
+        <p>Here's the framework I'd use if you're scaling through this range and want to build something that doesn't require you in the room to function.</p>
+
+        <h2>Days 1–30: Stop the Bleeding</h2>
+
+        <p>The first priority is not building new systems. It's understanding where the current system is failing. Most brands at this stage have three or four sources of operational loss that nobody has formally documented because everyone is too busy dealing with the downstream consequences.</p>
+
+        <p><strong>Measure your fill rate.</strong> This is the single most important number to establish in month one. Pull your last 90 days of orders and calculate what percentage shipped complete and on time. If you don't have the data to do this, that itself is the finding — and it means your inventory data is unreliable. Start here.</p>
+
+        <p><strong>Audit your reconciliation errors.</strong> How many invoices from the last quarter had discrepancies? How long did it take to resolve them? Manual reconciliation between your marketplace settlements, your 3PL receipts, and your accounting software is a major source of cash flow delay and hidden cost. Quantify it. Even a rough estimate of hours spent per week is useful.</p>
+
+        <p><strong>List every manual process that happens more than once a week.</strong> Order entry, inventory updates, purchase order creation, shipment tracking — if someone is doing it manually more than once a week, it's a candidate for either elimination or automation. Don't automate yet. Just list.</p>
+
+        <p><strong>Stop doing things that don't scale.</strong> This sounds obvious but it's harder in practice. If your ops team is maintaining four different inventory trackers across WhatsApp, Google Sheets, a tally entry, and a marketplace backend — stop. Pick one to be the source of truth even if it's imperfect, and stop updating the others. Proliferating systems is worse than having one imperfect system.</p>
+
+        <blockquote>
+          <p>The goal of month one is not optimization. It's visibility. You can't fix what you can't see.</p>
+        </blockquote>
+
+        <h2>Days 31–60: Build a Single Source of Truth</h2>
+
+        <p>Month two is about getting your inventory picture right. Not theoretically right — actually right, in a system that updates in near-real time and that your whole team trusts.</p>
+
+        <p><strong>Centralize your inventory data.</strong> Whether it's FilFlo, a WMS, or even a well-structured Airtable — pick one system and migrate everything into it. The criterion is not which system is best in the abstract; it's which system your ops team will actually use and update. A mediocre system with 100% adoption beats a sophisticated one with 60% adoption every time.</p>
+
+        <p><strong>Rationalize your SKU catalog.</strong> This is the step brands resist the most, but it's often the highest-ROI action of the entire 90 days. If you have 60 active SKUs and your top 15 account for 80% of revenue, you're spending ops capacity managing 45 SKUs that contribute 20% of the upside. Every SKU you add to your catalog adds procurement complexity, warehouse complexity, and demand forecasting complexity. Cut aggressively.</p>
+
+        <p><strong>Establish one inventory count cadence.</strong> Weekly cycle counts, not quarterly physical inventories. Pick the same day every week. Count the same set of high-velocity SKUs. Document variances and their causes. After four weeks of this, you'll start to see patterns — and patterns tell you where the system is leaking.</p>
+
+        <p><strong>Connect your channels to one inventory pool.</strong> If your D2C site, Blinkit, Amazon, and modern trade are each drawing from the same physical inventory but you're managing them as separate pools, you're either overselling or underselling constantly. Multi-channel brands need a single inventory pool with channel-level allocation logic, not separate virtual warehouses that get manually reconciled.</p>
+
+        <h2>Days 61–90: Make Ops Decisions Data-Driven</h2>
+
+        <p>Month three is where you shift from reactive to proactive. The previous 60 days have given you visibility and a single source of truth. Now you build the decision logic on top of it.</p>
+
+        <p><strong>Set reorder points by SKU.</strong> Not a uniform buffer for the whole catalog — individual reorder points based on each SKU's lead time and sales velocity. If SKU-A sells 100 units per week and your manufacturer needs 3 weeks, your reorder point is 300 units. When stock hits 300, a purchase order goes out automatically. No manual decision, no human memory required.</p>
+
+        <p><strong>Build a weekly ops review that takes 30 minutes.</strong> The output of your previous 60 days of data work is that you now have a dashboard — fill rate, stock levels versus reorder points, pending POs versus delivery windows, and open reconciliation items. A 30-minute weekly review of this dashboard, done consistently, is worth more than three days of firefighting per month. Get this meeting on the calendar and protect it.</p>
+
+        <p><strong>Automate your purchase order creation.</strong> Manual PO creation is error-prone and slow. Once you have reorder points set, the next step is triggering draft POs automatically when stock hits those thresholds. Even if a human still approves and sends the PO, removing the creation step from the manual queue saves significant time and eliminates the "I forgot to order" failure mode.</p>
+
+        <p><strong>Start tracking demand signals forward, not just backward.</strong> Sales velocity from last month is useful. Pre-orders, marketplace listing performance, and search trend data are more useful because they're leading indicators. Build a simple monthly review of these signals into your planning cycle so your procurement decisions are informed by where demand is going, not just where it's been.</p>
+
+        <h2>The Goal: A System That Runs Without You</h2>
+
+        <p>Every framework conversation eventually comes back to the same question: what are you actually trying to build? The answer, for any founder scaling past ₹5 crore ARR, should be an ops function that doesn't require your constant involvement to function. Not because you'll be lazy — you'll be more involved than ever in product and growth — but because ops decisions need to be made daily and they can't wait for your attention.</p>
+
+        <p>The 30-60-90 framework is a sequencing guide, not a checklist. You won't complete everything perfectly within each window. But the sequence matters: visibility first, then reliability, then automation. Trying to automate a process you don't fully understand is how you end up with automated chaos instead of manual chaos — and automated chaos is harder to fix.</p>
+
+        <p>At FilFlo, we've built this specifically for the ₹1–10 crore ARR range, where the operational complexity outpaces the team's capacity to manage it manually but the brand hasn't yet scaled to justify enterprise software. The goal is the same as it is for any good ops infrastructure: it should feel invisible when it's working. You should be thinking about your customers, not your spreadsheets.</p>
+
+        <p><i>Building ops infrastructure at an early-stage brand? I'd like to compare notes. Find me on <a href="https://twitter.com/_profvyas">Twitter</a>.</i></p>
+      </article>
+    </main>
+  </div>
+</body>
+</html>

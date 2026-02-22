@@ -46,6 +46,9 @@
         <div class="blog-menu">
           <h3>Blog Posts</h3>
           <ul>
+            <li><a href="#30-60-90-ops-framework">30-60-90 Ops Playbook</a></li>
+            <li><a href="#festive-inventory-hangover">Festive Inventory Hangover</a></li>
+            <li><a href="#fill-rate-d2c">Fill Rate in D2C</a></li>
             <li><a href="#systems-integration">Systems Integration</a></li>
             <li><a href="#links-ambitious">Links For Highly Ambitious People</a></li>
             <li><a href="#amaras-law">Amara's Law</a></li>
@@ -55,6 +58,104 @@
       </div>
       <!-- Main content area -->
       <div class="blog-content" id="content">
+        <!-- Blog Post: 30-60-90 Ops Framework -->
+        <article class="post" id="30-60-90-ops-framework">
+          <h1>The 30-60-90 Operations Playbook for Early-Stage D2C Brands</h1>
+          <span class="byline">20-Jan-2026 <a href="/post/30-60-90-ops-framework">permalink</a></span>
+
+          <p>There's a pattern I've seen across every D2C brand I've worked with — at Anveshan, P-TAL, Sleepy Owl, and now building FilFlo for dozens of brands. Between ₹1 crore and ₹10 crore ARR, operations becomes the binding constraint. Not marketing, not product, not fundraising. Ops.</p>
+
+          <p>At ₹1 crore, you can run things on WhatsApp messages, shared spreadsheets, and the founder's memory. The whole operation fits in your head. By ₹5 crore, that same approach is costing you 15–20% of your revenue in errors, manual reconciliation, and stockouts you didn't see coming. By ₹10 crore, it breaks outright.</p>
+
+          <p>The problem is that ops debt compounds faster than tech debt. With tech debt, you get slower deployments and frustrated engineers. With ops debt, you get missed orders, marketplace penalties, working capital locked in wrong inventory, and customers who never come back.</p>
+
+          <h2>Days 1–30: Stop the Bleeding</h2>
+
+          <p>The first priority is not building new systems. It's understanding where the current system is failing. Measure your fill rate. Audit your reconciliation errors. List every manual process that happens more than once a week. Stop maintaining four different inventory trackers — pick one source of truth even if it's imperfect.</p>
+
+          <blockquote>
+            <p>The goal of month one is not optimization. It's visibility. You can't fix what you can't see.</p>
+          </blockquote>
+
+          <h2>Days 31–60: Build a Single Source of Truth</h2>
+
+          <p>Month two is about getting your inventory picture right — actually right, in a system that updates in near-real time and that your whole team trusts. Centralize your inventory data. Rationalize your SKU catalog (your top 15 SKUs likely drive 80% of revenue — the rest is ops complexity you're paying for). Connect all your channels to one inventory pool with channel-level allocation logic.</p>
+
+          <h2>Days 61–90: Make Ops Decisions Data-Driven</h2>
+
+          <p>Set reorder points by SKU, not a uniform buffer for the whole catalog. Build a weekly ops review that takes 30 minutes. Automate your purchase order creation. Start tracking demand signals forward, not just backward.</p>
+
+          <p>The goal is an ops function that doesn't require your constant involvement to function — one that makes decisions daily without waiting for your attention.</p>
+
+          <p><i>Building ops infrastructure at an early-stage brand? I'd like to compare notes. Find me on <a href="https://twitter.com/_profvyas">Twitter</a>.</i></p>
+        </article>
+
+        <!-- Blog Post: Festive Inventory Hangover -->
+        <article class="post" id="festive-inventory-hangover">
+          <h1>The Festive Season Inventory Hangover: Why Indian D2C Brands Overshoot Every Year</h1>
+          <span class="byline">12-Dec-2025 <a href="/post/festive-inventory-hangover">permalink</a></span>
+
+          <p>It's mid-December. The Diwali sale is long over, the Navratri gifting wave has subsided, and somewhere in a warehouse in Bhiwandi or Okhla, a brand is staring at three months of dead inventory it can't move without a 40% discount. Meanwhile, its best-selling SKU sold out on day two of the sale, leaving ₹30 lakhs in potential revenue on the table.</p>
+
+          <p>This is not bad luck. It's a structural failure that repeats itself so reliably you could set a calendar reminder. The same brands, the same mistakes, every year.</p>
+
+          <h2>The Two Failure Modes</h2>
+
+          <p><strong>Stockout.</strong> You sell out of your best-performing SKUs within 48 hours. You scramble to replenish, but your manufacturer needs 10 days and the sale window is 7. You miss ₹X in revenue and your marketplace listing takes a visibility hit.</p>
+
+          <p><strong>Overstock.</strong> You ordered 3x of everything "to be safe." Demand came in lopsided. Now you have 6 months of slow-moving inventory tying up working capital at exactly the moment you want to invest in January growth.</p>
+
+          <h2>Why Gut-Feel Forecasting Fails Every Year</h2>
+
+          <p>The typical festive planning conversation: "Last Diwali we did ₹80 lakhs. We're growing 40% YoY, so this Diwali should be ₹1.1 crore. Let's order for ₹1.3 crore to be safe." This is not forecasting. This is last year's number with a vibes-based multiplier and a buffer applied to cover the anxiety.</p>
+
+          <blockquote>
+            <p>The problem isn't that founders are bad at forecasting. The problem is that they're using backward-looking data to make forward-looking decisions, without any mechanism to update as new signals arrive.</p>
+          </blockquote>
+
+          <p>The right festive forecast is built from sell-through rates by SKU and channel, channel-level growth trends from the last two festive seasons, historical volatility by SKU, and early demand signals like pre-sale wishlists. Each channel's forecast should be built independently — not a top-down number split across channels.</p>
+
+          <h2>The Fix: Build a System, Not a One-Time Plan</h2>
+
+          <p>The brands that handle festive inventory well don't have better intuition. They have better systems. They've automated sell-through tracking, connected procurement lead times to order windows, and review SKU-level data monthly rather than quarterly. The festive plan becomes a data exercise, not an anxiety exercise.</p>
+
+          <p>The next Navratri is ten months away. That's actually plenty of time to fix this — if you start now.</p>
+
+          <p><i>Running into festive planning problems? I'd like to hear about them. Find me on <a href="https://twitter.com/_profvyas">Twitter</a>.</i></p>
+        </article>
+
+        <!-- Blog Post: Fill Rate in D2C -->
+        <article class="post" id="fill-rate-d2c">
+          <h1>Fill Rate: The One D2C Metric That Compounds Faster Than Revenue</h1>
+          <span class="byline">10-Nov-2025 <a href="/post/fill-rate-d2c">permalink</a></span>
+
+          <p>Most D2C founders I speak to can tell me their MoM revenue growth and their blended CAC within thirty seconds. Ask them their fill rate, and you get a long pause followed by, "We track that in a spreadsheet somewhere." That spreadsheet is usually three weeks out of date, maintained by whoever has time, and nobody acts on it until a marketplace flags a penalty or a retailer sends a nastygram.</p>
+
+          <p>Fill rate — the percentage of orders shipped complete and on time against what was promised — is, in my view, the single most consequential operational metric in consumer brands. Not the flashiest, not the one on the VC dashboard, but the one that determines whether you keep the shelf space, the relationship, and eventually the revenue you worked so hard to earn.</p>
+
+          <h2>Why It Compounds: The 3-Stage Cascade</h2>
+
+          <p><strong>Stage 1 — Marketplace penalties.</strong> Amazon, Flipkart, and Blinkit all have fill rate thresholds built into their seller agreements. Drop below them and you get suppressed listings, held payouts, or outright suspension.</p>
+
+          <p><strong>Stage 2 — Retailer delisting.</strong> Modern trade buyers at DMART or Reliance Smart have quarterly reviews. A pattern of partial fulfillments signals unreliable supply. By the time you notice, the damage is done.</p>
+
+          <p><strong>Stage 3 — Brand trust erosion.</strong> A customer who orders your product and gets a partial pack doesn't complain. They just don't reorder. You see it as a cohort retention problem with a mysterious cause.</p>
+
+          <blockquote>
+            <p>Fill rate is a leading indicator of revenue health. By the time it shows up as a churn problem, you've already lost six months of relationship capital.</p>
+          </blockquote>
+
+          <h2>Root Causes and the Fix</h2>
+
+          <p>Fill rate failures almost always come down to three structural causes: SKU mismatches between systems (your ERP says 500 units, your WMS shows 480, the picker finds 460), procurement delays hitting order windows, and inaccurate demand signals driving wrong stock decisions.</p>
+
+          <p>If your fill rate is below 95%, start by auditing your SKU data across every system. Set fill rate alerts before penalties arrive. Map procurement lead times to your order acceptance policy. Build a 2-week inventory buffer by channel — not a blanket buffer, but channel-specific, because quick commerce demand spikes differently than modern trade delivery windows.</p>
+
+          <p>Sleepy Owl used this approach — connecting order management to real-time inventory and procurement timelines — to hit and sustain a 100% fill rate across their wholesale and marketplace channels. The goal isn't a perfect score on a single order. It's making 98%+ the default.</p>
+
+          <p><i>Thinking about fill rate in your ops stack? Let's talk on <a href="https://twitter.com/_profvyas">Twitter</a>.</i></p>
+        </article>
+
         <!-- New Blog Post -->
         <article class="post" id="systems-integration">
           <h1>The Crucial Role of Systems Integration in Scaling Your Brand</h1>
