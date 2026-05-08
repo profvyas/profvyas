@@ -11,39 +11,43 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Shubham Vyas - Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
-  <meta name="keywords" content="Shubham Vyas, FilFlo, SaaS, data science, growth operations, IIT Guwahati, Indian entrepreneur, tech startup">
+  <meta name="description" content="Shubham Vyas is Co-founder and CEO of FilFlo, the Anti-ERP: an AI-powered autonomous replenishment agent for CPG brands selling on Blinkit, Zepto, and Instamart.">
+  <meta name="keywords" content="Shubham Vyas, FilFlo, Anti-ERP, quick commerce, CPG brands, autonomous replenishment, Blinkit, Zepto, Instamart, inventory planning">
   <meta name="author" content="Shubham Vyas">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://profvyas.com" />
-  
+  <link rel="canonical" href="https://profvyas.com">
+
   <!-- PWA Support -->
   <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" href="/static/icon-192x192.png">
-  
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" href="/static/profile-studio-bw-192.png">
+
   <!-- Preload critical assets -->
-  <link rel="preload" href="/static/1767359059366.jpeg" as="image">
-  <link rel="preload" href="style.css" as="style">
-  
-  
+  <link rel="preload"
+        href="/static/profile-studio-bw-96.webp"
+        as="image"
+        type="image/webp"
+        imagesrcset="/static/profile-studio-bw-96.webp 96w, /static/profile-studio-bw-192.webp 192w"
+        imagesizes="(max-width: 820px) 56px, 46px">
+  <link rel="preload" href="/style.css" as="style">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://profvyas.com">
-  <meta property="og:title" content="Shubham Vyas - Entrepreneur & Tech Innovator">
-  <meta property="og:description" content="Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
-  <meta property="og:image" content="https://profvyas.com/static/1767359059366.jpeg">
+  <meta property="og:title" content="Shubham Vyas - Co-founder and CEO of FilFlo">
+  <meta property="og:description" content="Building FilFlo, the Anti-ERP: an AI-powered autonomous replenishment agent for CPG brands selling on India's quick commerce platforms.">
+  <meta property="og:image" content="https://profvyas.com/static/profile-studio-bw.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://profvyas.com">
-  <meta property="twitter:title" content="Shubham Vyas - Entrepreneur & Tech Innovator">
-  <meta property="twitter:description" content="Building FilFlo, a SaaS platform for insurgent brands in India. IIT Guwahati alumnus with experience in data science and growth operations.">
-  <meta property="twitter:image" content="https://profvyas.com/static/1767359059366.jpeg">
+  <meta property="twitter:title" content="Shubham Vyas - Co-founder and CEO of FilFlo">
+  <meta property="twitter:description" content="Building FilFlo, the Anti-ERP for CPG replenishment on Blinkit, Zepto, and Instamart.">
+  <meta property="twitter:image" content="https://profvyas.com/static/profile-studio-bw.jpg">
 
-  <title>Shubham Vyas - Entrepreneur & Tech Innovator</title>
-  
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Shubham Vyas - FilFlo</title>
+
+  <link href="/style.css" rel="stylesheet" type="text/css">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -52,20 +56,33 @@
     "@type": "Person",
     "name": "Shubham Vyas",
     "url": "https://profvyas.com",
-    "image": "https://profvyas.com/static/1767359059366.jpeg",
+    "image": "https://profvyas.com/static/profile-studio-bw.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/shubham-vyas",
       "https://twitter.com/_profvyas"
     ],
-    "jobTitle": "Entrepreneur",
+    "jobTitle": "Co-founder and CEO",
+    "description": "Co-founder and CEO of FilFlo, an AI-powered autonomous replenishment agent for CPG brands selling on India's quick commerce platforms.",
     "worksFor": {
       "@type": "Organization",
-      "name": "FilFlo"
+      "name": "FilFlo",
+      "url": "https://filflo.in"
     },
     "alumniOf": {
       "@type": "CollegeOrUniversity",
       "name": "IIT Guwahati"
-    }
+    },
+    "homeLocation": {
+      "@type": "Place",
+      "name": "Delhi NCR, India"
+    },
+    "knowsAbout": [
+      "Quick commerce replenishment",
+      "CPG operations",
+      "Autonomous inventory planning",
+      "AI agents",
+      "Supply chain operations"
+    ]
   }
   </script>
 
@@ -74,9 +91,6 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
-          .then(registration => {
-            console.log('ServiceWorker registration successful');
-          })
           .catch(err => {
             console.log('ServiceWorker registration failed: ', err);
           });
@@ -86,21 +100,28 @@
 </head>
 <body>
   <div class="container">
-    <!-- Header section with profile image, name, and menu -->
-    <div class="header">
+    <header class="header">
       <div class="header-left">
         <div class="profile-image">
           <a href="/" aria-label="Home">
-            <img src="/static/1767359059366.jpeg"
-                 alt="Shubham Vyas - Entrepreneur and IIT Guwahati alumnus building FilFlo"
-                 loading="eager"
-                 width="150"
-                 height="150">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="/static/profile-studio-bw-96.webp 96w, /static/profile-studio-bw-192.webp 192w"
+                sizes="(max-width: 820px) 56px, 46px">
+              <img src="/static/profile-studio-bw.jpg"
+                   alt="Shubham Vyas"
+                   loading="eager"
+                   decoding="async"
+                   fetchpriority="high"
+                   width="96"
+                   height="96">
+            </picture>
           </a>
         </div>
       </div>
       <nav id="menu" aria-label="Main navigation">
-        <span class="menu-title">Shubham Vyas</span>
+        <a class="menu-title" href="/" aria-label="Home">Shubham Vyas</a>
         <ul>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/bookshelf">Bookshelf</a></li>
@@ -109,46 +130,75 @@
           <li><a href="https://filflo.in"><i>FilFlo</i></a></li>
         </ul>
       </nav>
-    </div>
+    </header>
+
     <main id="content">
-      <div class="section" id="contact">
-        <h2>Contact</h2>
-        <ul>
+      <section class="hero" aria-labelledby="intro-title">
+        <p class="prelude">Co-founder and CEO of FilFlo</p>
+        <h1 id="intro-title">Shubham Vyas</h1>
+        <p class="intro">I build <a href="https://filflo.in">FilFlo</a>, the Anti-ERP for CPG brands selling on Blinkit, Zepto, and Instamart.</p>
+        <p>FilFlo is an AI-powered autonomous replenishment agent for quick commerce teams. It watches inventory, velocity, fill-rate risk, and platform constraints so brands can replenish before stockouts turn into lost shelf space.</p>
+        <ul class="inline-links action-links" aria-label="Primary links">
+          <li><a class="primary-link" href="https://filflo.in">Visit FilFlo</a></li>
           <li><a href="https://www.linkedin.com/in/shubham-vyas" aria-label="Connect on LinkedIn">LinkedIn</a></li>
           <li><a href="https://twitter.com/_profvyas" aria-label="Follow on Twitter">Twitter</a></li>
           <li><a href="mailto:shubham@filflo.in" aria-label="Send an email">Email</a></li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section" id="interests">
-        <h2>Interests</h2>
-        <p>Building <a href="https://filflo.in" aria-label="Visit FilFlo website">FilFlo</a>, infrastructure software for India&apos;s next-generation consumer brands. Focused on data systems, supply-chain operations, and the mechanics of early-stage scaling.</p>
-      </div>
+      <section class="section" id="filflo">
+        <h2>FilFlo</h2>
+        <p>Quick commerce rewards brands that replenish with speed, precision, and operational memory. FilFlo is built for that world: short cycles, volatile demand, channel-specific inventory, and teams that cannot wait for ERP-heavy workflows to catch up.</p>
+        <ul class="compact-list">
+          <li><strong>Autonomous replenishment</strong> for Blinkit, Zepto, Instamart, and the operating loops around them.</li>
+          <li><strong>Inventory truth</strong> across stock, velocity, fill-rate risk, procurement, and dispatch readiness.</li>
+          <li><strong>Anti-ERP workflow</strong> that gives operators decisions and actions, not another system to babysit.</li>
+        </ul>
+      </section>
 
-      <div class="section" id="projects">
+      <section class="section" id="timeline">
+        <h2>Timeline</h2>
+        <ol class="timeline">
+          <li><span>IIT Guwahati</span><p>B.Tech in Electrical Engineering.</p></li>
+          <li><span>Oracle</span><p>Data Scientist to Senior Data Scientist; also an early co-founder at Anveshan during these years.</p></li>
+          <li><span>Shopify</span><p>First data science hire in India.</p></li>
+          <li><span>Anveshan</span><p>VP Ops, building operating muscle for an inventory-heavy consumer brand.</p></li>
+          <li><span>P-TAL</span><p>VP Ops, working across supply, inventory, and growth operations.</p></li>
+          <li><span>FilFlo</span><p>Co-founder and CEO, Nov 2024-present.</p></li>
+        </ol>
+      </section>
+
+      <section class="section" id="writing">
+        <h2>Writing</h2>
+        <p>I write notes on operational software, quick commerce, systems integration, supply-chain lessons, and founder thinking.</p>
+        <ul class="compact-list">
+          <li><a href="/post/30-60-90-ops-framework">30-60-90 Ops Playbook</a> for early-stage D2C brands.</li>
+          <li><a href="/post/fill-rate-d2c">Fill Rate in D2C</a> and why it compounds faster than revenue.</li>
+          <li><a href="/post/systems-integration">Systems Integration</a> as the hidden constraint in scaling consumer brands.</li>
+          <li><a href="/post/amaras-law">Amara's Law</a>, ambition, decision-making, and long-run technology curves.</li>
+        </ul>
+        <p><a href="/blog">Read the blog</a></p>
+      </section>
+
+      <section class="section" id="projects">
         <h2>Projects</h2>
-        <ul>
-          <li><strong>FilFlo</strong> &mdash; founder (2023-present). Building modern tools for India&apos;s next wave of D2C brands.</li>
-          <li><strong>Conversations On India</strong> &mdash; a long-form interview series with thinkers shaping the subcontinent.</li>
-          <li><strong>Blog</strong> &amp; <strong>Bookshelf</strong> &mdash; essays and notes on technology, history, and decision-making.</li>
-          <li>Previously led growth and ops at <a href="https://anveshan.farm">Anveshan</a>, <a href="https://ptal.in">P-TAL</a>, and <a href="https://sleepyowl.co">Sleepy Owl</a>; data science stints at Shopify and Oracle.</li>
+        <ul class="compact-list">
+          <li><strong>FilFlo</strong> is the main thing: an autonomous replenishment agent for CPG quick-commerce operators.</li>
+          <li><strong>Conversations On India</strong> is a long-form interview project with people thinking seriously about India.</li>
+          <li><strong>Public notes</strong> cover operations, history, technology, and books that shape how I think.</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section" id="recognition">
-        <h2>Recognition</h2>
-        <ul>
-          <li><strong>Emergent Ventures Fellow</strong> &mdash; Mercatus Center, George&nbsp;Mason University (Aug&nbsp;2023). Selected for a grant to build <em>Conversations on India</em> into a sustained platform for rigorous dialogue about India&apos;s development trajectory. <a href="https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html" target="_blank" rel="noopener">Details</a></li>
+      <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>I am based around Delhi/Gurgaon, with family roots in Sonipat, Haryana.</p>
+        <ul class="inline-links contact-links" aria-label="Contact links">
+          <li><a href="https://filflo.in">FilFlo</a></li>
+          <li><a href="https://www.linkedin.com/in/shubham-vyas">LinkedIn</a></li>
+          <li><a href="https://twitter.com/_profvyas">Twitter</a></li>
+          <li><a href="mailto:shubham@filflo.in">Email</a></li>
         </ul>
-      </div>
-
-      <div class="section" id="writing-talks">
-        <h2>Writing &amp; Talks</h2>
-        <ul>
-          <li>Essays on technology, systems, and ambition: <a href="/post/amaras-law.html">Amara&apos;s Law</a>, <a href="/post/systems-integration.html">Systems Integration</a>, <a href="/post/links-ambitious.html">Links for the Ambitious</a>, <a href="/post/fill-rate-d2c.html">Fill Rate in D2C</a>, <a href="/post/30-60-90-ops-framework.html">30-60-90 Ops Playbook</a>.</li>
-          <li>Guest lectures on data-driven growth at IIT Guwahati and D2C Summit 2024.</li>
-        </ul>
-      </div>
+      </section>
     </main>
   </div>
 </body>

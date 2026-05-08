@@ -1,23 +1,17 @@
 {
-  "name": "Shubham Vyas - Entrepreneur & Tech Innovator",
+  "name": "Shubham Vyas - FilFlo",
   "short_name": "Shubham Vyas",
-  "description": "Building FilFlo, a SaaS platform for insurgent brands in India",
+  "description": "Co-founder and CEO of FilFlo, the Anti-ERP for CPG brands selling on India's quick commerce platforms.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/static/icon-192x192.png",
+      "src": "/static/profile-studio-bw-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/static/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
-} 
+}
