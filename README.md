@@ -45,4 +45,3 @@ I keep notes on operational software, quick commerce, systems integration, suppl
 
 [![Website](https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=About.me&logoColor=white)](https://profvyas.com)
 [![Twitter](https://img.shields.io/badge/Twitter-0f172a?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/_profvyas)
-[![GitHub](https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/profvyas)
