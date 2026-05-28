@@ -37,6 +37,10 @@ I am based around Delhi/Gurgaon, with family roots in Sonipat, Haryana.
 ![OpenAI](https://img.shields.io/badge/OpenAI-0f172a?style=for-the-badge&logo=openai&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-0f172a?style=for-the-badge&logo=playwright&logoColor=22c55e)
 
+## Activity
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=profvyas&theme=dark&background=0f172a&hide_border=true&ring=60a5fa&fire=fbbf24&currStreakNum=ffffff&currStreakLabel=60a5fa)](https://github.com/profvyas)
+
 ## Writing
 
 I keep notes on operational software, quick commerce, systems integration, supply-chain lessons, and founder thinking at [profvyas.com](https://profvyas.com).
