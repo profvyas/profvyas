@@ -1,51 +1,101 @@
-# Shubham Vyas
+<div align="center">
 
-**Co-founder and CEO of [FilFlo](https://filflo.in), the Anti-ERP for CPG brands selling on India's quick commerce platforms.**
+<a href="https://filflo.in">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=1200&color=60A5FA&center=true&vCenter=true&width=760&height=72&lines=Shubham+Vyas;Co-founder+%26+CEO+%40+FilFlo;The+Anti-ERP+for+quick-commerce+brands;Data+science+%E2%86%92+operations+%E2%86%92+founder" alt="Shubham Vyas" />
+</a>
 
-FilFlo is an AI-powered autonomous replenishment agent for brands operating on Blinkit, Zepto, and Instamart. It helps teams watch inventory, velocity, fill-rate risk, procurement readiness, and dispatch constraints so they can replenish before stockouts become lost shelf space.
+### Building [FilFlo](https://filflo.in) — autonomous replenishment for CPG brands on Blinkit, Zepto & Instamart
 
-I am based around Delhi/Gurgaon, with family roots in Sonipat, Haryana.
+`Delhi / Gurgaon, India`  ·  `Roots in Sonipat, Haryana`
 
-## Background
+[![Website](https://img.shields.io/badge/profvyas.com-0F172A?style=for-the-badge&logo=About.me&logoColor=60A5FA)](https://profvyas.com)
+[![FilFlo](https://img.shields.io/badge/FilFlo-0F172A?style=for-the-badge&logo=googlechrome&logoColor=60A5FA)](https://filflo.in)
+[![X](https://img.shields.io/badge/@_profvyas-0F172A?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/_profvyas)
+[![LinkedIn](https://img.shields.io/badge/shubham--vyas-0F172A?style=for-the-badge&logo=linkedin&logoColor=60A5FA)](https://linkedin.com/in/shubham-vyas)
 
-| Chapter | Notes |
+</div>
+
+---
+
+## FilFlo, in one breath
+
+> Quick commerce rewired how brands replenish — from a weekly rhythm to an hourly one. Most are still running it on ERPs built for a slower world. **FilFlo is the anti-ERP**: an AI replenishment agent that watches the things that quietly lose shelf space, and acts before they do.
+
+It sits close to the operational source of truth and gives operators decisions and actions — not another system to babysit.
+
+| Focus | What it means |
 | --- | --- |
-| **IIT Guwahati** | B.Tech in Electrical Engineering. |
-| **Oracle** | Data Scientist to Senior Data Scientist; also an early co-founder at Anveshan during these years. |
+| **Inventory truth** | Live stock, velocity, and fill-rate risk across Blinkit, Zepto, and Instamart. |
+| **Replenishment** | Move before a stockout turns into lost shelf space. |
+| **Procurement & dispatch** | Readiness and constraints, surfaced as decisions — not dashboards. |
+| **Agents with receipts** | Automation that sits on source-of-truth data and shows its work. |
+
+---
+
+## The path here
+
+| Chapter | What I did |
+| --- | --- |
+| **IIT Guwahati** | B.Tech, Electrical Engineering. |
+| **Oracle** | Data Scientist → Senior Data Scientist. Co-founded Anveshan on the side. |
 | **Shopify** | First data science hire in India. |
-| **Anveshan** | VP Ops, building operating muscle for an inventory-heavy consumer brand. |
-| **P-TAL** | VP Ops, working across supply, inventory, and growth operations. |
-| **FilFlo** | Co-founder and CEO, Nov 2024-present. |
-| **Emergent Ventures** | Fellow, Mercatus Center, George Mason University. |
+| **Anveshan** | VP Operations — built the operating muscle for an inventory-heavy consumer brand. |
+| **P-TAL** | VP Operations — across supply, inventory, and growth ops. |
+| **FilFlo** | Co-founder & CEO · Nov 2024 → present. |
+| **Emergent Ventures** | Fellow — Mercatus Center, George Mason University. |
 
-## Building Now
+---
 
-- Autonomous replenishment for CPG brands on Blinkit, Zepto, and Instamart.
-- Inventory truth across quick-commerce stock, velocity, fill-rate risk, procurement, and dispatch readiness.
-- Anti-ERP workflows that give operators decisions and actions instead of another system to babysit.
-- AI agents that sit close to source-of-truth operational data and leave receipts.
+## How I think about ops software
 
-## Stack I Use
+- Software should hand an operator a **decision**, not another system to babysit.
+- Stay close to the **source of truth** — and always leave receipts.
+- Good ops tooling *removes* work. It doesn't relocate it into a dashboard.
+- Inventory is a **truth problem** before it's a software problem.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=for-the-badge&logo=typescript&logoColor=60a5fa)
-![React](https://img.shields.io/badge/React-0f172a?style=for-the-badge&logo=react&logoColor=61dafb)
-![Vite](https://img.shields.io/badge/Vite-0f172a?style=for-the-badge&logo=vite&logoColor=fbbf24)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
-![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=nodedotjs&logoColor=22c55e)
-![MongoDB](https://img.shields.io/badge/MongoDB-0f172a?style=for-the-badge&logo=mongodb&logoColor=22c55e)
-![Redis](https://img.shields.io/badge/Redis-0f172a?style=for-the-badge&logo=redis&logoColor=ef4444)
-![OpenAI](https://img.shields.io/badge/OpenAI-0f172a?style=for-the-badge&logo=openai&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-0f172a?style=for-the-badge&logo=playwright&logoColor=22c55e)
+---
+
+## Selected writing
+
+I write about operational software, quick commerce, systems integration, supply-chain lessons, and founder thinking — at **[profvyas.com](https://profvyas.com)**.
+
+- [**The 30-60-90 Operations Playbook for Early-Stage D2C Brands**](https://profvyas.com/post/30-60-90-ops-framework) · Jan 2026
+- [**The Festive Season Inventory Hangover: Why Indian D2C Brands Overshoot Every Year**](https://profvyas.com/post/festive-inventory-hangover) · Dec 2025
+- [**Fill Rate: The One D2C Metric That Compounds Faster Than Revenue**](https://profvyas.com/post/fill-rate-d2c) · Nov 2025
+- [**The Crucial Role of Systems Integration in Scaling Your Brand**](https://profvyas.com/post/systems-integration) · Apr 2025
+
+---
+
+## Stack FilFlo runs on
+
+![TypeScript](https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&logo=typescript&logoColor=60A5FA)
+![React](https://img.shields.io/badge/React-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-0F172A?style=for-the-badge&logo=vite&logoColor=FBBF24)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
+![Node.js](https://img.shields.io/badge/Node.js-0F172A?style=for-the-badge&logo=nodedotjs&logoColor=22C55E)
+![MongoDB](https://img.shields.io/badge/MongoDB-0F172A?style=for-the-badge&logo=mongodb&logoColor=22C55E)
+![Redis](https://img.shields.io/badge/Redis-0F172A?style=for-the-badge&logo=redis&logoColor=EF4444)
+![OpenAI](https://img.shields.io/badge/OpenAI-0F172A?style=for-the-badge&logo=openai&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-0F172A?style=for-the-badge&logo=playwright&logoColor=22C55E)
+
+---
 
 ## Activity
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=profvyas&theme=dark&background=0f172a&hide_border=true&ring=60a5fa&fire=fbbf24&currStreakNum=ffffff&currStreakLabel=60a5fa)](https://github.com/profvyas)
+<div align="center">
 
-## Writing
+[![GitHub Streak](https://streak-stats.demolab.com?user=profvyas&theme=dark&background=0F172A&hide_border=true&ring=60A5FA&fire=FBBF24&currStreakNum=FFFFFF&currStreakLabel=60A5FA&sideNums=60A5FA&sideLabels=94A3B8&dates=64748B)](https://github.com/profvyas)
 
-I keep notes on operational software, quick commerce, systems integration, supply-chain lessons, and founder thinking at [profvyas.com](https://profvyas.com).
+</div>
 
-## Connect
+---
 
-[![Website](https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=About.me&logoColor=white)](https://profvyas.com)
-[![Twitter](https://img.shields.io/badge/Twitter-0f172a?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/_profvyas)
+<div align="center">
+
+**Always happy to compare notes with operators and founders building in commerce.**
+
+[![Website](https://img.shields.io/badge/profvyas.com-0F172A?style=for-the-badge&logo=About.me&logoColor=60A5FA)](https://profvyas.com)
+[![X](https://img.shields.io/badge/@_profvyas-0F172A?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/_profvyas)
+[![LinkedIn](https://img.shields.io/badge/shubham--vyas-0F172A?style=for-the-badge&logo=linkedin&logoColor=60A5FA)](https://linkedin.com/in/shubham-vyas)
+
+</div>
