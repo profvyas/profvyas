@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://filflo.in">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=1200&color=60A5FA&center=true&vCenter=true&width=760&height=72&lines=Shubham+Vyas;Co-founder+%26+CEO+%40+FilFlo;The+Anti-ERP+for+quick-commerce+brands;Data+science+%E2%86%92+operations+%E2%86%92+founder" alt="Shubham Vyas" />
+  <img src="header.svg" width="100%" alt="Shubham Vyas, Co-founder and CEO at FilFlo" />
 </a>
 
 ### Building [FilFlo](https://filflo.in) — autonomous replenishment for CPG brands on Blinkit, Zepto & Instamart
