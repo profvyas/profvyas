@@ -78,7 +78,7 @@ I write about operational software, quick commerce, systems integration, supply-
 ![Node.js](https://img.shields.io/badge/Node.js-0F172A?style=for-the-badge&logo=nodedotjs&logoColor=22C55E)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0F172A?style=for-the-badge&logo=mongodb&logoColor=22C55E)
 ![Redis](https://img.shields.io/badge/Redis-0F172A?style=for-the-badge&logo=redis&logoColor=EF4444)
-![OpenAI](https://img.shields.io/badge/OpenAI-0F172A?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-0F172A?style=for-the-badge&logo=claude&logoColor=D97757)
 ![Playwright](https://img.shields.io/badge/Playwright-0F172A?style=for-the-badge&logo=playwright&logoColor=22C55E)
 
 ---
@@ -87,7 +87,7 @@ I write about operational software, quick commerce, systems integration, supply-
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=profvyas&theme=dark&background=0F172A&hide_border=true&ring=60A5FA&fire=FBBF24&currStreakNum=FFFFFF&currStreakLabel=60A5FA&sideNums=60A5FA&sideLabels=94A3B8&dates=64748B)](https://github.com/profvyas)
+[![Contribution graph](https://ghchart.rshah.org/60A5FA/profvyas)](https://github.com/profvyas)
 
 </div>
 
