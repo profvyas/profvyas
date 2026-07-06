@@ -4,7 +4,7 @@
   <img src="header.svg" width="100%" alt="Shubham Vyas, Co-founder and CEO at FilFlo" />
 </a>
 
-### Building [FilFlo](https://filflo.in) — autonomous replenishment for CPG brands on Blinkit, Zepto & Instamart
+### Building [FilFlo](https://filflo.in) — the AI replenishment agent for Indian quick-commerce brands · Blinkit, Zepto & Instamart
 
 `Delhi / Gurgaon, India`  ·  `Roots in Sonipat, Haryana`
 
@@ -21,14 +21,17 @@
 
 > Quick commerce rewired how brands replenish — from a weekly rhythm to an hourly one. Most are still running it on ERPs built for a slower world. **FilFlo is the anti-ERP**: an AI replenishment agent that watches the things that quietly lose shelf space, and acts before they do.
 
-It sits close to the operational source of truth and gives operators decisions and actions — not another system to babysit.
+It connects to every channel and warehouse a brand runs on — quick commerce, marketplaces, D2C storefronts, and the OMS/ERP layer underneath — and runs one loop, hourly:
 
-| Focus | What it means |
+| The loop | What it does |
 | --- | --- |
-| **Inventory truth** | Live stock, velocity, and fill-rate risk across Blinkit, Zepto, and Instamart. |
-| **Replenishment** | Move before a stockout turns into lost shelf space. |
-| **Procurement & dispatch** | Readiness and constraints, surfaced as decisions — not dashboards. |
-| **Agents with receipts** | Automation that sits on source-of-truth data and shows its work. |
+| **See** | One live view of stock, velocity, and fill-rate risk across every channel and warehouse. |
+| **Forecast** | Demand read at the SKU × location level, not the aggregate. |
+| **Decide** | Order quantities surfaced as decisions an operator approves — not dashboards to interpret. |
+| **Act** | Drafts the POs, books the appointment slots, preps the dispatch — with receipts. |
+| **Learn** | Every cycle feeds the next one. |
+
+A system of action, not a system of record.
 
 ---
 
