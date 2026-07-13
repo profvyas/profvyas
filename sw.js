@@ -1,8 +1,9 @@
-const CACHE_NAME = 'profvyas-permalink-v2';
+const CACHE_NAME = 'profvyas-entity-v3';
 const urlsToCache = [
   '/',
   '/index.html',
   '/blog/',
+  '/filflo',
   '/bookshelf/',
   '/quotes/',
   '/coi/',

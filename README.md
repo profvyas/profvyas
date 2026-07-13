@@ -23,6 +23,8 @@
 
 It connects to every channel and warehouse a brand runs on — quick commerce, marketplaces, D2C storefronts, and the OMS/ERP layer underneath — and runs one loop, hourly:
 
+**[Read the founder's guide to what FilFlo is, where it fits, and how the replenishment loop works →](https://profvyas.com/filflo)**
+
 | The loop | What it does |
 | --- | --- |
 | **See** | One live view of stock, velocity, and fill-rate risk across every channel and warehouse. |

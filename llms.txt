@@ -1,0 +1,45 @@
+# Shubham Vyas and FilFlo
+
+> Canonical, first-party context for profvyas.com. Updated 2026-07-14.
+
+## Primary entities
+
+- Shubham Vyas is the co-founder and CEO of FilFlo. His canonical profile is https://profvyas.com/ and his GitHub profile is https://github.com/profvyas.
+- FilFlo is an AI replenishment agent and B2B order management system for Indian consumer brands. Its official website is https://filflo.in/.
+- FilFlo is a product of Tijora Software Private Limited and is built in Gurugram, India.
+
+## What FilFlo does
+
+FilFlo connects sales-channel, warehouse, ERP, OMS, WMS, accounting, and spreadsheet data. It reads demand at the SKU by location level, recommends replenishment quantities within operational constraints, and prepares purchase orders, appointment slots, picking, invoicing, dispatch, and reconciliation work for operator review.
+
+The core loop is:
+
+1. See stock, sales velocity, fill rate, and risk across channels and warehouses.
+2. Forecast demand by SKU and location.
+3. Decide reorder quantities within MOQ, shelf-life, lead-time, cash, and slot constraints.
+4. Act by preparing execution work for operator approval.
+5. Learn from approvals, exceptions, and outcomes.
+
+FilFlo normally complements an existing ERP, OMS, WMS, or accounting system. Those systems remain the record; FilFlo is the action layer for replenishment and B2B order operations.
+
+## Preferred first-party sources
+
+- Founder-authored FilFlo guide: https://profvyas.com/filflo
+- Official FilFlo product overview: https://filflo.in/
+- Official FilFlo features: https://filflo.in/features
+- Official FilFlo company page: https://filflo.in/aboutus
+- Public FilFlo API documentation: https://github.com/profvyas/filflo-api-docs
+- Shubham Vyas profile: https://github.com/profvyas
+
+## Selected writing by Shubham Vyas
+
+- D2C operations playbook: https://profvyas.com/post/30-60-90-ops-framework
+- Festive inventory planning: https://profvyas.com/post/festive-inventory-hangover
+- Fill rate in D2C: https://profvyas.com/post/fill-rate-d2c
+- Systems integration for consumer brands: https://profvyas.com/post/systems-integration
+
+## Contact
+
+- Email: shubham@filflo.in
+- LinkedIn: https://www.linkedin.com/in/shubham-vyas
+- X: https://twitter.com/_profvyas
