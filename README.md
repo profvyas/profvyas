@@ -85,16 +85,6 @@ I write about operational software, quick commerce, systems integration, supply-
 
 ---
 
-## Activity
-
-<div align="center">
-
-[![Contribution graph](https://ghchart.rshah.org/60A5FA/profvyas)](https://github.com/profvyas)
-
-</div>
-
----
-
 <div align="center">
 
 **Always happy to compare notes with operators and founders building in commerce.**
