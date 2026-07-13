@@ -175,6 +175,17 @@ h2,
   line-height: 1.25;
 }
 
+h3,
+#content h3,
+.post h3 {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
 p,
 ul,
 ol {
@@ -305,6 +316,51 @@ a:hover {
 
 .compact-list li {
   padding-left: 2px;
+}
+
+.process-list {
+  margin: 6px 0 18px;
+}
+
+.process-list > div {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 18px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.process-list > div:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.process-list dt {
+  font-weight: 700;
+}
+
+.process-list dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.faq-list > section {
+  margin-bottom: 26px;
+}
+
+.faq-list p {
+  margin-bottom: 0;
+}
+
+.author-note {
+  margin-top: 56px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.author-note p:last-child {
+  margin-bottom: 0;
 }
 
 .inline-links {
@@ -453,6 +509,11 @@ button:focus-visible {
 
   .intro {
     font-size: 18px;
+  }
+
+  .process-list > div {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 12px;
   }
 
   .section {
